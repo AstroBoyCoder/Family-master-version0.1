@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/family_list_func_ly"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:background="@color/background"
+    android:padding="1px">
+    <LinearLayout
+        android:id="@+id/apply_family_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/single_layout_selector"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/apply"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/info_motto"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="申请家庭"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/slategray"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/create_family_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:background="@drawable/single_layout_selector"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/create2"
+            />
+
+        <TextView
+            android:id="@+id/info_motto1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:text="创建家庭"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/slategray"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <!-- 第3个tiyu-->
+    <LinearLayout
+        android:id="@+id/applyList_family_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/single_layout_selector"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/list"
+            />
+
+        <TextView
+            android:id="@+id/info_motto2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:text="申请列表"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/slategray"
+            android:textSize="17sp" />
+    </LinearLayout>
+</LinearLayout>

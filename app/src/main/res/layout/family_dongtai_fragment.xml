@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/student_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.astroboy.family_master_version01.View.MainPageComponents.Family_Fragment_Switcher_Activity">
+
+    <LinearLayout
+        android:id="@+id/student_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@color/theme_mainColor"
+        android:padding="0dp"
+        android:weightSum="1">
+
+        <com.example.astroboy.family_master_version01.Util.RoundImageView
+            android:id="@+id/dongTaiUserIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/user_icon"
+            imagecontrol:border_inside_color="#fff7f2e9"
+            imagecontrol:border_thickness="1dp" />
+
+        <Spinner
+            android:id="@+id/dongTaiPublisherSpinner"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/spinner_item" />
+
+        <ImageButton
+            android:clickable="true"
+            android:id="@+id/dongTaiPublisher"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/add"
+            android:layout_gravity="center_horizontal|center_vertical"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        android:id="@+id/dongTaiPtr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/dongTaiListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+</LinearLayout>
+

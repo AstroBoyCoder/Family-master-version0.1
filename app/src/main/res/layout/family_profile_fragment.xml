@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mine_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:scrollbars="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:fitsSystemWindows="true">
+                <LinearLayout
+                    android:id="@+id/profile_topLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/family_profile_background"
+                    android:fitsSystemWindows="true"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.7"
+                        android:padding="10dp">
+
+                        <com.example.astroboy.family_master_version01.Util.RoundImageView
+                            android:id="@+id/profile_userIcon"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/user_icon"
+                            imagecontrol:border_inside_color="#fff7f2e9"
+                            imagecontrol:border_outside_color="#ffd5d1c8"
+                            imagecontrol:border_thickness="2dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/profile_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.175"
+                        android:gravity="top"
+                        android:singleLine="true"
+                        android:textAlignment="center"
+                        android:textColor="#3d3d3d"
+                        android:text="Astro"
+                        android:textSize="23sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/profile_motto"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="0.125"
+                        android:background="#4b4d4d4d"
+                        android:gravity="center"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="这里放简介"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="horizontal"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:weightSum="2.998">
+
+                    <LinearLayout android:id="@+id/profile_notify"
+                        style="@style/single_layout"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.998">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="通知中心"
+                            android:textSize="16dp"
+                            android:textColor="@color/text_clo"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.001"
+                        android:background="#e5e5e5" />
+
+                    <LinearLayout android:id="@+id/profile_infoSetting"
+                        style="@style/single_layout"
+                        android:layout_width="0dp"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.998">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textSize="16dp"
+                            android:text="个人信息"
+                            android:textColor="@color/text_clo"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.002"
+                        android:background="#e5e5e5" />
+
+                    <LinearLayout android:id="@+id/profile_personSetting"
+                        style="@style/single_layout"
+                        android:layout_width="0dp"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.998">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textSize="16dp"
+                            android:text="个人设置"
+                            android:textColor="@color/text_clo"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/wrap_layout"
+                android:visibility="gone">
+                <!-- 上圆角-->
+                <LinearLayout
+                    android:id="@+id/kecheng_goumai"
+                    style="@style/top_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="课程购买"
+                        android:textColor="@color/text_clo"
+                        android:textSize="16dp" />
+
+                    <ImageView style="@style/img_arrow"
+                        android:layout_marginRight="2dp"/>
+                </LinearLayout>
+                <!-- 分割线 -->
+                <View style="@style/bg_line" />
+                <!-- 下圆角-->
+                <LinearLayout
+                    android:id="@+id/dd"
+                    style="@style/bottom_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="特长辅导"
+                        android:textColor="@color/text_clo"
+                        android:textSize="16dp" />
+
+                    <ImageView style="@style/img_arrow"
+                        android:layout_marginRight="2dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/wrap_layout">
+
+                <LinearLayout
+                    android:id="@+id/profile_softwareSetting"
+                    style="@style/single_layout"
+                    android:padding="5dp">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/set_48px"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="软件设置"
+                        android:textColor="@color/text_clo"
+                        android:textSize="16dp" />
+
+                    <ImageView style="@style/img_arrow"
+                        android:layout_marginRight="2dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/wrap_layout">
+
+                <LinearLayout
+                    android:id="@+id/profile_manageFamily"
+                    style="@style/single_layout"
+                    android:padding="5dp">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/guanli_48px"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="管理家庭"
+                        android:textColor="@color/text_clo"
+                        android:textSize="16dp" />
+
+                    <ImageView style="@style/img_arrow"
+                        android:layout_marginRight="2dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- 全圆角-->
+            <LinearLayout style="@style/wrap_layout">
+
+                <LinearLayout
+                    android:id="@+id/profile_feedback"
+                    style="@style/single_layout"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/help_48px"
+                        android:id="@+id/imageView2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="帮助与反馈"
+                        android:textColor="@color/text_clo"
+                        android:textSize="16dp"
+                        android:id="@+id/textView" />
+
+                    <ImageView style="@style/img_arrow"
+                        android:layout_marginRight="2dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/wrap_layout">
+
+                <LinearLayout
+                    android:id="@+id/profile_update"
+                    style="@style/single_layout"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/update_48px"/>
+                    <TextView
+                        android:id="@+id/update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="检测更新"
+                        android:textColor="@color/text_clo"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/pkg_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp"
+                        android:paddingRight="5dp"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout style="@style/wrap_layout">
+
+                <LinearLayout
+                    android:id="@+id/profile_exit"
+                    style="@style/single_layout"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/poweroff_48px"/>
+
+                    <TextView
+                        android:id="@+id/poweroff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="退出"
+                        android:textColor="@color/text_clo"
+                        android:textSize="16dp" />
+
+                    <ImageView style="@style/img_arrow"
+                        android:layout_marginRight="2dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

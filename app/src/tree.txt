@@ -1,0 +1,275 @@
+卷 Windows10 的文件夹 PATH 列表
+卷序列号为 0000007F 1E1A:D354
+C:.
+│  content.txt
+│  tree.txt
+│  
+├─androidTest
+│  └─java
+│      └─com
+│          └─example
+│              └─astroboy
+│                  └─family_master_version01
+│                          ExampleInstrumentedTest.java
+│                          
+├─main
+│  │  AndroidManifest.xml
+│  │  
+│  ├─java
+│  │  └─com
+│  │      └─example
+│  │          └─astroboy
+│  │              └─family_master_version01
+│  │                  │  App.java
+│  │                  │  
+│  │                  ├─Ctrl
+│  │                  │      Handle_userLogin.java
+│  │                  │      
+│  │                  ├─Model
+│  │                  │  │  Constant.java
+│  │                  │  │  MsharedPrefrenece.java
+│  │                  │  │  
+│  │                  │  ├─Adapter
+│  │                  │  │      CommentsAdapter.java
+│  │                  │  │      Essay_Adapter.java
+│  │                  │  │      FamilyApplyListAdapter.java
+│  │                  │  │      FamilyListAdapter.java
+│  │                  │  │      FamilyMembersAdapter.java
+│  │                  │  │      FamilySearchListAdapter.java
+│  │                  │  │      
+│  │                  │  └─Bean
+│  │                  │          Comment_Bean.java
+│  │                  │          Essay_Bean.java
+│  │                  │          FamilyApplyList_bean.java
+│  │                  │          Family_bean.java
+│  │                  │          Family_Member_Bean.java
+│  │                  │          Member_Bean.java
+│  │                  │          User_bean.java
+│  │                  │          
+│  │                  ├─Util
+│  │                  │  │  ActionSheetDialog.java
+│  │                  │  │  BaseFragment.java
+│  │                  │  │  ContextHolder.java
+│  │                  │  │  Db_FamilyService.java
+│  │                  │  │  Db_UserService.java
+│  │                  │  │  ExitApplication.java
+│  │                  │  │  InternetConnectable.java
+│  │                  │  │  JumpToAnyware.java
+│  │                  │  │  LocationService.java
+│  │                  │  │  RoundImageView.java
+│  │                  │  │  verifyPermissions.java
+│  │                  │  │  
+│  │                  │  ├─HttpUtil
+│  │                  │  │      Post_essay.java
+│  │                  │  │      Post_userLogin.java
+│  │                  │  │      
+│  │                  │  └─ImagePickerView
+│  │                  │          GlideImageLoader.java
+│  │                  │          ImagePickerAdapter.java
+│  │                  │          ProgressPieView.java
+│  │                  │          
+│  │                  └─View
+│  │                      ├─CustomView
+│  │                      │  │  BaseActivity.java
+│  │                      │  │  ObservableScrollView.java
+│  │                      │  │  
+│  │                      │  └─PopDialog
+│  │                      │          Family_profile_modifyInfo_popWindow.java
+│  │                      │          GlobalDialog.java
+│  │                      │          
+│  │                      ├─DongTai
+│  │                      │      Family_dongTai_publishEssay.java
+│  │                      │      
+│  │                      ├─FamilyManage
+│  │                      │      Family_manage_applyFamily.java
+│  │                      │      Family_manage_applyList.java
+│  │                      │      Family_manage_create.java
+│  │                      │      
+│  │                      ├─MainPageComponents
+│  │                      │      Family_dongtai_Fragment.java
+│  │                      │      Family_Fragment_Switcher_Activity.java
+│  │                      │      Family_list_Fragment.java
+│  │                      │      Family_myProfile_Fragment.java
+│  │                      │      
+│  │                      ├─Other
+│  │                      │      Family_Functon_unOpen_Activity.java
+│  │                      │      
+│  │                      ├─Profile
+│  │                      │  │  Family_profile_infoSetting_Activity.java
+│  │                      │  │  
+│  │                      │  └─ManageFamilies
+│  │                      │          Family_profile_manageFamilies_Activity.java
+│  │                      │          
+│  │                      └─UserLoadApp
+│  │                              Family_ForgetPassword_Activity.java
+│  │                              Family_Login_Activity.java
+│  │                              Family_Register_Activity.java
+│  │                              
+│  ├─java-gen
+│  │  └─com
+│  │      └─astroboy
+│  │          └─family
+│  │              └─GreenDao
+│  │                      DaoMaster.java
+│  │                      DaoSession.java
+│  │                      Family.java
+│  │                      FamilyDao.java
+│  │                      User.java
+│  │                      UserDao.java
+│  │                      
+│  └─res
+│      ├─anim
+│      │      actionsheet_dialog_in.xml
+│      │      actionsheet_dialog_out.xml
+│      │      dialog_enter.xml
+│      │      dialog_exit.xml
+│      │      push_bottom_in.xml
+│      │      push_bottom_out.xml
+│      │      reply_window_enter.xml
+│      │      reply_window_exit.xml
+│      │      
+│      ├─drawable
+│      │      actionsheet_bottom_normal.9.png
+│      │      actionsheet_bottom_pressed.9.png
+│      │      actionsheet_bottom_selector.xml
+│      │      actionsheet_middle_normal.9.png
+│      │      actionsheet_middle_pressed.9.png
+│      │      actionsheet_middle_selector.xml
+│      │      actionsheet_single_normal.9.png
+│      │      actionsheet_single_pressed.9.png
+│      │      actionsheet_single_selector.xml
+│      │      actionsheet_top_normal.9.png
+│      │      actionsheet_top_pressed.9.png
+│      │      actionsheet_top_selector.xml
+│      │      add.png
+│      │      apply.png
+│      │      back.png
+│      │      background_blue_round.xml
+│      │      background_green_round.xml
+│      │      background_red_round.xml
+│      │      background_white_round.xml
+│      │      bg_layout_shape.xml
+│      │      bg_transparent.png
+│      │      bottom_layout_selector.xml
+│      │      bottom_select.xml
+│      │      bottom_unselect.xml
+│      │      bt_nobgd.xml
+│      │      checkbox_nor.png
+│      │      checkbox_sel.png
+│      │      checkbox_selector.xml
+│      │      create.png
+│      │      create2.png
+│      │      edit_shape.xml
+│      │      event_di.9.png
+│      │      family_profile_background.png
+│      │      guanli_48px.png
+│      │      help_48px.png
+│      │      home_background.png
+│      │      ic_default_color.xml
+│      │      left_arrow.png
+│      │      list.png
+│      │      login_edit_shape.xml
+│      │      login_main_shape.xml
+│      │      mid_layout_selector.xml
+│      │      navigation_text_selector.xml
+│      │      note_48px.png
+│      │      poweroff_48px.png
+│      │      radio_button_color.xml
+│      │      ratingbar_progress.xml
+│      │      selector_image_add.xml
+│      │      setting_arrow.png
+│      │      set_48px.png
+│      │      single_layout_selector.xml
+│      │      single_select.xml
+│      │      single_unselect.xml
+│      │      spinner_item.xml
+│      │      top_layout_selector.xml
+│      │      top_select.xml
+│      │      top_unselect.xml
+│      │      update_48px.png
+│      │      user_icon.jpg
+│      │      
+│      ├─layout
+│      │      dialog.xml
+│      │      family_dongtai_fragment.xml
+│      │      family_dongtai_listitem_empty.xml
+│      │      family_dongtai_publish_essay_activity.xml
+│      │      family_forget_password_activity.xml
+│      │      family_functon_un_open_activity.xml
+│      │      family_list_fragment.xml
+│      │      family_list_func_layout.xml
+│      │      family_login_activity.xml
+│      │      family_main_fragment.xml
+│      │      family_main_page.xml
+│      │      family_manage_apply_family_activity.xml
+│      │      family_manage_apply_list_activity.xml
+│      │      family_manage_create_activity.xml
+│      │      family_profile_fragment.xml
+│      │      family_profile_info_setting_activity.xml
+│      │      family_profile_manage_families_activity.xml
+│      │      family_profile_manage_families_fragment.xml
+│      │      family_profile_modify_usergender_dialog.xml
+│      │      family_profile_modify_usericon_dialog.xml
+│      │      family_profile_modify_userinfo_dialog.xml
+│      │      family_register_activity.xml
+│      │      item_evaluate.xml
+│      │      item_evaluatereply.xml
+│      │      listview_apply_item.xml
+│      │      listview_item.xml
+│      │      listview_search_item.xml
+│      │      list_image_item.xml
+│      │      manage_family_list_header_item.xml
+│      │      popup_reply.xml
+│      │      replay_input.xml
+│      │      view_actionsheet.xml
+│      │      xel_spiner_learntrack_view.xml
+│      │      
+│      ├─menu
+│      │      family_profile_manage_families_menu.xml
+│      │      
+│      ├─mipmap-hdpi
+│      │      ic_launcher.png
+│      │      
+│      ├─mipmap-mdpi
+│      │      event_comment.png
+│      │      event_favour.png
+│      │      feed_more.png
+│      │      icon_emoji.png
+│      │      ic_launcher.png
+│      │      image_add_nor.png
+│      │      image_add_sel.png
+│      │      sale_icon_star.png
+│      │      
+│      ├─mipmap-xhdpi
+│      │      ic_launcher.png
+│      │      
+│      ├─mipmap-xxhdpi
+│      │      family_dongtai.png
+│      │      family_list.png
+│      │      family_personal.png
+│      │      ic_launcher.png
+│      │      
+│      ├─mipmap-xxxhdpi
+│      │      ic_launcher.png
+│      │      
+│      ├─values
+│      │      attrs.xml
+│      │      colors.xml
+│      │      dimens.xml
+│      │      strings.xml
+│      │      styles.xml
+│      │      
+│      ├─values-v21
+│      │      styles.xml
+│      │      
+│      └─values-w820dp
+│              dimens.xml
+│              
+└─test
+    └─java
+        └─com
+            └─example
+                └─astroboy
+                    └─family_master_version01
+                            ExampleUnitTest.java
+                            

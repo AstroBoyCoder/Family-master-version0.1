@@ -1,0 +1,13 @@
+ 驱动器 C 中的卷是 Windows10
+ 卷的序列号是 1E1A-D354
+
+ C:\Users\AstroBoy\Desktop\Family-master-version0.1\app\src 的目录
+
+2016/12/29  17:43    <DIR>          .
+2016/12/29  17:43    <DIR>          ..
+2016/11/25  13:24    <DIR>          androidTest
+2016/12/29  17:43                 0 content.txt
+2016/12/29  16:57    <DIR>          main
+2016/11/25  13:24    <DIR>          test
+               1 个文件              0 字节
+               5 个目录 12,151,566,336 可用字节

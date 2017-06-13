@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:weightSum="1"
+    android:orientation="horizontal">
+
+
+    <com.example.astroboy.family_master_version01.Util.RoundImageView
+        android:id="@+id/article_shot_img"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_weight="0.05"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_margin="8dp"
+        android:src="@drawable/user_icon" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/family_title"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/family_address"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="17dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.25"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <Button
+            android:layout_weight="0.5"
+            android:id="@+id/agree"
+            android:layout_gravity="center"
+            android:layout_width="50dip"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_green_round"
+            android:text="同意"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/ignore"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:layout_width="50dip"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_red_round"
+            android:text="忽略"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

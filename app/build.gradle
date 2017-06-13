@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.example.astroboy.family_master_version01"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main{
+            main {
+                jniLibs.srcDir 'libs'
+                java.srcDirs = ['src/main/java', 'src/main/java-gen']
+            }
+        }
+    }
+}
+
+dependencies {
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.ashokvarma.android:bottom-navigation-bar:1.2.0'
+    compile 'com.lzy.net:okgo:2.1.4'
+    compile 'com.jakewharton:butterknife:8.1.0'
+    compile 'com.jaeger.statusbaruitl:library:1.2.6'
+    compile 'org.greenrobot:greendao:2.2.0'
+    compile 'org.greenrobot:greendao-generator:2.2.0'
+    compile 'com.lzy.widget:imagepicker:0.3.2'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:recyclerview-v7:25.0.1'
+    compile 'com.android.support:design:25.0.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    compile 'com.lzy.widget:ninegridview:0.2.0'
+    compile 'com.lzy.widget:view-core:0.2.1'
+    compile 'com.alibaba:fastjson:1.2.22'
+    compile files('libs/BaiduLBS_Android.jar')
+}
